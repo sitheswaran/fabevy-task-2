@@ -1,0 +1,167 @@
+*{padding:0;
+  margin:5px;
+box-sizing:border-box;}
+
+
+.pitcher ul{ padding:0 270px 0 0;
+            list-style:none;
+			}
+		
+			
+.pitcher a {text-decoration:none;
+            color:black;
+            margin:0 120px 0 0px;}
+
+.pitcher {display:flex;}
+.name h2{border-bottom:solid 1px;}
+
+.name ul{display:flex;}
+
+.name {padding-top:50px;}
+
+.name ul li a:hover{color:blue;}
+
+.name ul li a.active{
+color:red;
+}
+
+.dev {background-color:black;
+      padding-bottom:80px;}
+	  
+.dev {text-align:center;
+      padding-top:60px;}
+	  
+.dev {color:white;}
+
+.dev h1{font-size:40px;}
+
+.dev h3,h4{color:gray;}
+
+.dev h4{padding-top:15px}
+	  
+.dev button{border-color:white;
+            padding:13px 30px;
+            background-color:black;
+            color:white;
+            margin-top:20px;
+}
+.dev button a{text-decoration:none;
+              color:white;}
+
+
+.sk h2{border-top:0.2px solid black;
+       padding-top:10px;}
+
+.sk img{padding-top:10px;
+        margin-left:10px;}
+	   
+.p {display:flex;
+}
+
+.pr ul li{display:inline-block;
+       list-style:none;
+       padding:10px;
+	   margin:0 30px;
+	   }
+                               /*------------------education:start;----------------*/
+.education {padding-top:15px;}
+.education h2{border-top:0.2px solid black;}
+
+.edu {display:flex;}
+	   
+.clg {padding-top:15px;}
+
+.cl {
+	  border-left:3px solid gray;
+      height:100px;
+	 }	
+.clg {padding-top:10px;}
+
+
+.clg {display:flex;}
+
+.c p{width: 80px;
+       height: 80px;
+       border: 1px ;
+background:#ccc;}
+
+.c p{text-align:center;
+padding-top:35px;
+margin-left:800px;}
+
+
+
+.sc {border-left:3px solid gray;
+          height:100px;}
+		  
+.school {padding-top:10px;}
+
+.school {display:flex;}
+
+.s p{width: 80px;
+     height: 80px;
+     border: 1px ;
+     background:#ccc;}
+
+.s p{text-align:center;
+     padding-top:35px;
+     margin-left:800px;}
+
+
+		  
+		  
+.school1 {border-left:3px solid gray;
+          height:100px;}
+		  
+.sch {padding-top:10px;}
+
+.sch {display:flex;}
+
+.school2 p{width: 80px;
+       height: 80px;
+       border: 1px ;
+background:#ccc;}
+
+.school2 p{text-align:center;
+           padding-top:35px;
+           margin-left:800px;}
+
+
+                               /*------------------education:end;---------------------*/
+							   
+                               /*------------------praject:start;---------------------*/
+.project h2{border-top:0.2px solid black;}
+.project {padding-top:10px;}
+                   
+.pro {display:flex;}
+       
+	   
+.tit {
+        border-left:3px solid gray;
+      }
+.title {padding-top:10px;}
+	        
+.head {
+          border-left:3px solid gray;}
+		  
+.heading{padding-top:10px;}
+			
+.line {
+	       border-left:3px solid gray;}
+		   
+.headline {padding-top:10px;}		   
+			                /*------------------praject:end;---------------------*/
+							 /*------------------link:start;---------------------*/
+.con{padding-top:30px;}		
+
+.pit {display:flex;}	
+
+.link a{color:black;
+        text-decoration:none;}
+
+
+.link {display:flex;}
+.link h5{border-left:3px solid gray;}
+.link h5{padding-left:10px;}
+                           /*------------------link:end;---------------------*/
+
