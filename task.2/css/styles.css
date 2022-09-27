@@ -1,23 +1,42 @@
-*{padding:0;
-  margin:5px;
-box-sizing:border-box;}
+*{   padding:0;
+     margin:5px;
+     box-sizing:border-box;
+	 }
+
+.container {width:1140px;
+            margin:0 auto;
+			padding:20px 30px;
+			background-color:white;
+			}
 
 
-.pitcher ul{ padding:0 270px 0 0;
-            list-style:none;
+ .pitcher ul{ padding:0 270px 0 0;
+               list-style:none;
 			}
 		
 			
 .pitcher a {text-decoration:none;
             color:black;
-            margin:0 120px 0 0px;}
+            margin:0 120px 0 0px;
+			}
 
-.pitcher {display:flex;}
-.name h2{border-bottom:solid 1px;}
 
-.name ul{display:flex;}
+.pitcher {
+	      display:flex;
+		  }
 
-.name {padding-top:50px;}
+.name h2{
+	     border-bottom:1px solid black;
+         width:880px;
+		 }
+
+.name ul{
+	     display:flex;
+		 }
+
+.name {
+	    padding-top:50px;
+		}
 
 .name ul li a:hover{color:blue;}
 
@@ -25,76 +44,113 @@ box-sizing:border-box;}
 color:red;
 }
 
-.dev {background-color:black;
-      padding-bottom:80px;}
+.dev {
+	   background-color:black;
+       padding-bottom:80px;
+	  }
 	  
-.dev {text-align:center;
-      padding-top:60px;}
+.dev {
+	  text-align:center;
+      padding-top:60px;
+	  }
 	  
-.dev {color:white;}
+.dev {
+	  color:white;
+	  }
 
-.dev h1{font-size:40px;}
+.dev h1{
+	    font-size:40px;
+	   }
 
-.dev h3,h4{color:gray;}
+.dev h3,h4{
+	       color:gray;
+		   }
 
-.dev h4{padding-top:15px}
+.dev h4{
+	    padding-top:15px
+		}
 	  
-.dev button{border-color:white;
+.dev button{
+	        border-color:white;
             padding:13px 30px;
             background-color:black;
             color:white;
             margin-top:20px;
-}
-.dev button a{text-decoration:none;
-              color:white;}
+           }
+		   
+.dev button a{
+	          text-decoration:none;
+              color:white;
+			  }
 
 
-.sk h2{border-top:0.2px solid black;
-       padding-top:10px;}
-
-.sk img{padding-top:10px;
-        margin-left:10px;}
-	   
-.p {display:flex;
-}
-
-.pr ul li{display:inline-block;
-       list-style:none;
-       padding:10px;
-	   margin:0 30px;
+.sk h2{
+	   border-top:0.2px solid black;
+       padding-top:10px;
 	   }
-                               /*------------------education:start;----------------*/
-.education {padding-top:15px;}
-.education h2{border-top:0.2px solid black;}
 
-.edu {display:flex;}
+.sk img{
+	    padding-top:10px;
+        margin-left:10px;
+		}
 	   
-.clg {padding-top:15px;}
+.p {
+	display:flex;
+   }
+
+.pr ul li{
+	      display:inline-block;
+          list-style:none;
+          padding:10px;
+	      margin:0 30px;
+	     }
+                               /*------------------education:start;----------------*/
+.education {
+	        padding-top:25px;
+			}
+.education h2{
+	          border-top:0.2px solid black;
+			  }
+
+.edu {
+	  display:flex;
+	  }
+	   
+	   
+                               /*------------------education:end;----------------*/
+							   
+                               /*------------------study:start;----------------*/
+	   
+.clg {padding-top:25px;}
 
 .cl {
 	  border-left:3px solid gray;
       height:100px;
 	 }	
-.clg {padding-top:10px;}
+.clg {padding-top:20px;}
 
 
 .clg {display:flex;}
 
-.c p{width: 80px;
+.c p{  width: 80px;
        height: 80px;
        border: 1px ;
-background:#ccc;}
+       background:#ccc;
+	 }
 
-.c p{text-align:center;
-padding-top:35px;
-margin-left:800px;}
+.c p{  text-align:center;
+       padding-top:35px;
+       margin-left:600px;
+	 }
 
 
 
-.sc {border-left:3px solid gray;
-          height:100px;}
+.sc {
+	  border-left:3px solid gray;
+      height:100px;
+    }
 		  
-.school {padding-top:10px;}
+.school {padding-top:20px;}
 
 .school {display:flex;}
 
@@ -105,7 +161,7 @@ margin-left:800px;}
 
 .s p{text-align:center;
      padding-top:35px;
-     margin-left:800px;}
+     margin-left:600px;}
 
 
 		  
@@ -113,25 +169,25 @@ margin-left:800px;}
 .school1 {border-left:3px solid gray;
           height:100px;}
 		  
-.sch {padding-top:10px;}
+.sch {padding-top:20px;}
 
 .sch {display:flex;}
 
 .school2 p{width: 80px;
-       height: 80px;
-       border: 1px ;
-background:#ccc;}
+           height: 80px;
+           border: 1px ;
+           background:#ccc;}
 
 .school2 p{text-align:center;
            padding-top:35px;
-           margin-left:800px;}
+           margin-left:600px;}
 
 
-                               /*------------------education:end;---------------------*/
+                               /*------------------study:end;---------------------*/
 							   
                                /*------------------praject:start;---------------------*/
 .project h2{border-top:0.2px solid black;}
-.project {padding-top:10px;}
+.project {padding-top:30px;}
                    
 .pro {display:flex;}
        
@@ -150,8 +206,8 @@ background:#ccc;}
 	       border-left:3px solid gray;}
 		   
 .headline {padding-top:10px;}		   
-			                /*------------------praject:end;---------------------*/
-							 /*------------------link:start;---------------------*/
+			                      /*------------------------praject:end;-----------------------------*/
+							        /*----------------------link:start;-----------------------------*/
 .con{padding-top:30px;}		
 
 .pit {display:flex;}	
@@ -163,5 +219,5 @@ background:#ccc;}
 .link {display:flex;}
 .link h5{border-left:3px solid gray;}
 .link h5{padding-left:10px;}
-                           /*------------------link:end;---------------------*/
+                                      /*---------------------link:end;----------------------------*/
 
